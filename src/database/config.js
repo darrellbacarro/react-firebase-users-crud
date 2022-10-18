@@ -1,7 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from 'firebase/database';
 
-var config = {
+const config = {
   apiKey: "AIzaSyDMYI2MMUZtWZRy4vECAmO59cGRzXDydDQ",
   authDomain: "collabera-training.firebaseapp.com",
   projectId: "collabera-training",

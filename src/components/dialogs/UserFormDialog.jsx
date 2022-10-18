@@ -111,11 +111,7 @@ const UserFormDialog = ({ open = false, data, onClose }) => {
               <div className="input-group-grid">
                 <span></span>
                 <div
-                  className="modal-footer"
-                  style={{
-                    justifyContent: "flex-start",
-                    padding: "12px 0 48px 0",
-                  }}
+                  className="modal-footer form-dialog-footer"
                 >
                   <button className="sm dark" type="submit">
                     Save

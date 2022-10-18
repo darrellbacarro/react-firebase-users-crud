@@ -23,6 +23,12 @@ body,
   display: flex;
 }
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
 a:link:not(.link) {
   text-decoration: none;
   color: #000;
@@ -380,6 +386,11 @@ div.actions {
 
   & button {
     font-weight: bold;
+  }
+
+  &.form-dialog-footer {
+    justify-content: flex-start;
+    padding: 12px 0 48px 0;
   }
 }
 

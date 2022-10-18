@@ -58,7 +58,7 @@ const UserList = () => {
   );
 
   return (
-    <div style={{ flexDirection: "column", width: '100vw' }}>
+    <div className="page-container">
       <main>
         <div className="header">
           <h3>Users</h3>
