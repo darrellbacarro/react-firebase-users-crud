@@ -25,8 +25,8 @@ const ConfirmDialog = ({
           </div>
           <div className="modal-footer">
             <button
-              onClick={async () => {
-                if (onConfirm) await onConfirm();
+              onClick={() => {
+                if (onConfirm) onConfirm();
                 onClose();
               }}
               className="sm"

@@ -546,7 +546,6 @@ div.actions {
     border: 1px #000000 solid;
     border-radius: 7px;
     padding: 8px 6px;
-    box-sizing: border-box;
     font-size: 14px;
   }
 }
@@ -684,8 +683,8 @@ h3 > span {
   border-radius: 50%;
   width: 2.5em;
   height: 2.5em;
-  animation-fill-mode: both;
   animation: bblFadInOut 1.8s infinite ease-in-out;
+  animation-fill-mode: both;
   color: rgb(0, 73, 219);
   font-size: 7px;
   position: relative;
@@ -698,8 +697,8 @@ h3 > span {
     border-radius: 50%;
     width: 2.5em;
     height: 2.5em;
-    animation-fill-mode: both;
     animation: bblFadInOut 1.8s infinite ease-in-out;
+    animation-fill-mode: both;
     content: "";
     position: absolute;
     top: 0;
@@ -711,8 +710,8 @@ h3 > span {
     border-radius: 50%;
     width: 2.5em;
     height: 2.5em;
-    animation-fill-mode: both;
     animation: bblFadInOut 1.8s infinite ease-in-out;
+    animation-fill-mode: both;
     content: "";
     position: absolute;
     top: 0;

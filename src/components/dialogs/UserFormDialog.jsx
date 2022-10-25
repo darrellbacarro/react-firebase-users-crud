@@ -46,8 +46,9 @@ const UserFormDialog = ({ open = false, data, onClose }) => {
           id: user?.id ?? nanoid(),
           fullname: user.fullname,
           email: user.email,
-          password: user.password,
         };
+
+        if (user.password) _user['password'] = user.password;
 
         if (data) {
           await dispatch(editUser(_user)).unwrap();
